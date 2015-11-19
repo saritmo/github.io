@@ -1,0 +1,379 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{
+    width:100%;
+    height:100%;
+}
+
+body{
+    width:100%;
+    height:100%;
+	background-color:#000 ;
+	font-family: 'Ubuntu', sans-serif;
+    
+	padding-top:50px; /*for compansating fixed navbar*/
+	}
+
+.container {
+    
+    margin: 0 auto;
+    padding: 50px 15px;
+    
+}
+
+.container-fluid {
+  padding-right:0px;
+  padding-left:0px;  
+    
+}
+
+/*colors*/
+.color_black {
+color:#000000;	
+}
+
+.color_white{
+color:#ffffff;	
+}
+
+
+
+.color_grey{
+	color:#999;
+}
+
+.color_light_grey{
+	color:#ddd;
+}
+
+/*bg colors*/
+.bg_color_white{
+	background-color:#ffffff;
+	
+}
+
+.bg_color_black{
+	background-color:#000000;
+	
+}
+
+.bg_color_grey{
+	background-color:#999;
+}
+
+.bg_color_light_grey{
+	background-color:#ddd;
+}
+
+
+
+.border_bottom_black{
+	border-bottom:solid 1px #000;
+	
+}
+
+.border_bottom_magenta{
+	border-bottom:solid 1px #F20058;
+	
+}
+
+
+.border_top_black_3{
+	border-top:solid 3px #000;
+	
+}
+
+.border_bottom_black_3{
+	border-bottom:solid 3px #000;
+	
+}
+
+.border_top_grey{
+	border-top: solid 1px #999;
+	
+}
+
+.border_bottom_grey{
+	border-bottom: solid 1px #999;
+	
+}
+
+
+/*-------------*/
+/*font weight*/
+/*-------------*/
+
+.font_weight_600{ font-weight:600;
+	
+}
+
+
+.font_weight_500{ font-weight:500;
+	
+}
+
+.font_weight_400{ font-weight:400;
+	
+}
+
+
+/*------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 1.5;
+  color: inherit;
+}
+/*------------------------------*/
+/*h1*/
+.big_h1 {
+	font-size:5em;
+}
+@media (max-width: 768px) {
+.big_h1 {
+	font-size:3.5em;
+}
+}
+/*------------------------------*/
+/*ul*/
+ul,li {
+list-style-type:none;	
+padding:0 0;
+float:none;
+}
+
+/*------------------------*/
+/*img small*/
+.img_small_85{
+width:85%;
+height:85%;	
+}
+
+.img_small_75 {
+width:75%;
+height:75%;
+}
+
+.img_small_50 {
+width:50%;
+height:50%;
+}
+
+.img_small_30 {
+width:30%;
+height:30%;
+}
+
+.img_small_20 {
+width:20%;
+height:20%;
+}
+/*-----------------------------------*/
+
+.thumbnail {
+    padding:20px;
+	
+	
+}	
+
+/*----------------------------------*/
+/*big button*/
+
+@media (min-width: 768px) {
+.btn-lg,
+.btn-group-lg > .btn {
+  padding: 12px 21px;
+  font-size: 24px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+ 
+}}
+/*-----------------------------------*/
+/*--------------------*/
+/*logo image*/
+
+
+.navbar-brand > img {
+	height:32px;
+	width: 200px;
+	
+		}
+		
+
+		
+/*------------------*/
+.thumbnail {
+	background-color:#fff;
+	
+	border:solid 1px #000;
+	border-radius:10px;
+	margin-right:auto;
+	margin-left:auto;
+	
+	
+}
+
+/*----------------------*/
+ .container-fluid {
+  padding-right:15px;
+  padding-left:15px;  
+    
+}	 
+
+@media (min-width: 992px) {
+ .container-fluid {
+  padding-right:36px;
+  padding-left:36px;  
+    
+}	}
+/*-----------------------------*/
+
+.navbar a{
+padding-top:10px;	
+}
+
+@media (min-width: 992px) {
+	#nav_color{
+	float:right;
+	
+}}
+
+
+#nav_color li > a 
+{
+	color:#000;
+	padding-left:0;
+	padding-right:12px;
+}
+
+@media (max-width: 992px) {
+	#nav_color li > a 
+{
+	color:#000;
+	padding-left:15px;
+	padding-right:0;
+}
+}
+
+#nav_color li > a:hover 
+{
+	color:#999;
+}
+
+#nav_color img {
+height:20px;
+width:20px;	
+}
+
+#dreams h1{
+	padding-top:30px;
+	
+	
+}
+
+@media (min-width: 992px) {
+#dreams h1{
+	padding-top:50px;
+	
+	
+}}
+
+#what {
+padding-top:50px;
+padding-bottom:50px;
+}
+
+@media (min-width: 992px) {
+#what {
+padding-top:150px;
+height:500px;	
+}}
+
+#what .thumbnail{
+	width:250px;
+	height:200px;
+}
+
+#what .caption {
+color:#000;
+text-align:center;	
+}
+
+
+ #what .container-fluid {
+  padding-right:15px;
+  padding-left:15px;  
+    
+}	 
+
+@media (min-width: 992px) {
+ #what .container-fluid {
+  padding-right:100px;
+  padding-left:100px;  
+    
+}	}
+
+
+#bio .container-fluid{
+padding-top:50px;
+padding-bottom:50px;
+}
+
+@media (min-width: 992px) {
+#bio .container-fluid{
+padding-top:100px;
+height:500px;	
+}}
+
+/*#office  .container{
+padding-top:0;
+padding-bottom:0;	
+}
+
+#office  .row{
+padding-top:0;
+padding-bottom:0;	
+}*/
+
+#office img {
+	margin-left:auto;
+	margin-right:auto;
+	height:40%;
+	width:40%;
+	
+}
+@media (max-width: 992px) {
+	#office img {
+	margin-left:auto;
+	margin-right:auto;
+	height:80%;
+	width:80%;
+	
+}
+}
+
+#bio img{
+height:20px;
+width:20px;	
+}
+
+
+
+
+.bg_stipes {
+	background-image:url(../svg/bg_stripes.svg);
+}
+
+
